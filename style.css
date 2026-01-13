@@ -1,0 +1,44 @@
+body{
+    background-color: gainsboro;
+    margin: 0;
+}
+.header{
+    background-color: antiquewhite;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 30px;
+}
+
+.menu{
+    display: flex;
+    justify-content: end;
+}
+
+.menu li{
+    list-style-type: none;
+}
+
+.head{
+     margin-right: 20px;
+    padding-left: 130px;
+     background-color: antiquewhite;
+      margin-left: 20px;
+      margin-top: -35px;
+}
+.head-contan{
+padding-right: 120px;
+
+}
+
+.btn{
+    background-color: chocolate;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 43%;
+}
