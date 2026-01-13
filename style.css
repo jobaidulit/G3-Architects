@@ -3,34 +3,38 @@ body{
     margin: 0;
 }
 .header{
-    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.819);
     margin-top: 15px;
     margin-left: 20px;
     margin-right: 20px;
     padding-left: 130px;
     padding-right: 130px;
     padding-top: 30px;
-}
-
-.nav-menu{
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    gap: 500px;
 }
-menu .menu-item{
+.mwnu{
     display: flex;
+    gap: 50px;
 }
 
-
-.item li{
+.mwnu li{
     list-style-type: none;
 }
+
+
+
+
+
 
 .head{
      margin-right: 20px;
     padding-left: 130px;
-     background-color: antiquewhite;
+     background-color: rgba(250, 235, 215, 0.819);
       margin-left: 20px;
       margin-top: -35px;
+      padding-top: 50px;
 }
 .head-contan{
 padding-right: 120px;
@@ -146,6 +150,7 @@ justify-content: start;
     padding-right: 50px;
     padding-top: 50px;
     text-align: center;
+    padding-right: 70px;
 }
 
 .box-1{
@@ -162,4 +167,41 @@ padding: 20px;
 
 .box-1 p{
     margin-top: -18px;
+}
+
+.spon{
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+}
+
+.spon-contain{
+    text-align: center;
+}
+
+.spon-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.box-22{
+    padding: 25px;
+}
+.footer{
+    background-color: whitesmoke;
+    margin-top: -20px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.para{
+    background-color:rgba(250, 235, 215, 0.819);
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 30px;
+    text-align: center;
 }
